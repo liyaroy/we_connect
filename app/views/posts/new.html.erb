@@ -1,0 +1,11 @@
+<h1> Create new Post</h1>
+<%= form_for :post, url: '/posts' do |f| %>
+	<div class="form-group">
+		<%= f.label :neew_message %>
+		<%= f.text_area :message %>
+	</div>
+
+	<div class="actions">
+    <%= f.submit "Save", class: "btn btn-warning btn-sm" %>
+  </div>
+<% end %>

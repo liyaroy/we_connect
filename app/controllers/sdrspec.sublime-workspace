@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"validate",
+				"validate_presence_of"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"local",
+				"localhost"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/controllers/call_logs_controller.rb",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/liya/hobby/WeConnect/config/initializers/devise.rb",
+		"/home/liya/project/project/rspec/successdart/app/controllers/api_controller.rb",
+		"/home/liya/project/project/rspec/successdart/app/models/checkin.rb",
+		"/home/liya/project/nalc_back_end/app/views/admin/bills/_form.html.erb",
+		"/home/liya/hobby/railschat/app/assets/stylesheets/bootstrap.css",
+		"/home/liya/hobby/railschat/app/assets/javascripts/bootstrap.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/liya/project/project/rspec"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/liya/project/project/rspec/successdart/app/controllers/call_logs_controller.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"posts_conte",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"user_",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"rails_helper",
+				"spec/rails_helper.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"pos",
+				"spec/models/post_spec.rb"
+			],
+			[
+				"post",
+				"app/models/post.rb"
+			],
+			[
+				"post_s",
+				"spec/models/post_spec.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"post_controller",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"application_",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"rails",
+				"spec/rails_helper.rb"
+			],
+			[
+				"sessions",
+				"spec/requests/sessions_spec.rb"
+			],
+			[
+				".rspe",
+				".rspec"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"status",
+				"sample_app/spec/requests/status_spec.rb"
+			],
+			[
+				"cons",
+				"sample_app/spec/requests/consoles_spec.rb"
+			],
+			[
+				"rails_",
+				"sample_app/spec/rails_helper.rb"
+			],
+			[
+				"",
+				"sample_app/app/controllers/consoles_controller.rb"
+			],
+			[
+				"console",
+				"sample_app/app/controllers/consoles_controller.rb"
+			],
+			[
+				"spec",
+				"sample_app/spec/spec_helper.rb"
+			],
+			[
+				"routes",
+				"successdart/config/routes.rb"
+			],
+			[
+				"spec_he",
+				"spec/spec_helper.rb"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"develo",
+				"config/environments/development.rb"
+			],
+			[
+				"n",
+				"proto/note.proto"
+			],
+			[
+				"_",
+				"app/views/admin/bills/_form.html.erb"
+			],
+			[
+				"docker-com",
+				"docker-compose.yml"
+			],
+			[
+				"index",
+				"app/views/rooms/index.html.erb"
+			],
+			[
+				"rails-chat",
+				"app/assets/stylesheets/rails-chat-tutorial.scss"
+			],
+			[
+				"note",
+				"~/hobby/railschat/app/views/rooms/chat_app/notes.jbuilder"
+			],
+			[
+				"room_con",
+				"app/controllers/rooms_controller.rb"
+			],
+			[
+				"docker",
+				"Dockerfile"
+			],
+			[
+				"cab",
+				"config/cable.yml"
+			],
+			[
+				"dat",
+				"config/database.yml"
+			],
+			[
+				"index.hrm",
+				"app/views/rooms/index.html.erb"
+			],
+			[
+				"cable",
+				"config/cable.yml"
+			],
+			[
+				"da",
+				"config/database.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/hobby/noteapp-docker.sublime-workspace"
+			],
+			[
+				"rails",
+				"~/hobby/Noteapp/config/rails-chat-app-normal.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
