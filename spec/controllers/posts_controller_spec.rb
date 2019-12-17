@@ -8,15 +8,15 @@ RSpec.describe PostsController, type: :controller do
 		end
 	end 
 
-	describe "POST create" do
-		it "should create a new post" do
-			user = FactoryBot.create(:user)
-			login_as(user)
-			visit new_posts_path
-			page.fill_in placeholder: 'message', with: 'Hello World'
+	# describe "POST create" do
+	# 	it "should create a new post" do
+	# 		user = FactoryBot.create(:user)
+	# 		login_as(user)
+	# 		visit new_posts_path
+	# 		page.fill_in placeholder: 'message', with: 'Hello World'
 
-			expect { click_button "Save" }.to change(Post).count.by(1)
-		end
-	end
+	# 		expect { click_button "Save" }.to change(Post).count.by(1)
+	# 	end
+	# end
 
 end

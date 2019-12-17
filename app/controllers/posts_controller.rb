@@ -10,15 +10,15 @@ class PostsController < ApplicationController
 	def create 
 		@post = Post.new(post_params)
 		if @post.save
-			render root_path
+			redirect_to authenticated_root_path
 		else
-			redirect_to 'new_posts_path'
+			render 'new'
 		end
 	end
 
 	private
 
 	def post_params
-		params.require(:post).permit(:message)
+		params.require(:post).permit(:message).merge(user_id: current_user.id)
 	end
 end

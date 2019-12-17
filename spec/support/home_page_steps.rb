@@ -19,4 +19,9 @@ module HomePageSteps
 	# def i_should_see_creted_post_in_list_with_message("Hello World")
 
 	# end
+
+	def visits_find_friends(user2)
+		visit('/follows/friends')
+		expect(page).to have_content(user2.username)
+	end
 end
