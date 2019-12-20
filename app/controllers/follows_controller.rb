@@ -15,6 +15,9 @@ class FollowsController < ApplicationController
 	def friends
 		friend_ids = current_user.followers.map(&:id)
 		@users = User.where.not(id: friend_ids)
-		render 'index' 
+		respond_to do |format|
+	    format.html
+	    format.js
+		end
 	end
 end

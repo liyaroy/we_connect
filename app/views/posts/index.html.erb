@@ -1,9 +1,6 @@
-<h1> Welcome </h1>
-<p> Posts</p>
 
 <%= link_to 'Create posts', new_posts_path %>
-
-	<%= render partial: 'post_template' %>
+<div>
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -24,8 +21,20 @@
           <li><%= link_to 'Sign up', new_user_registration_path %></li>
           <li><%= link_to 'Sign in', user_session_path %></li>
         <% end %>
-        <li><%= link_to 'Friends', new_user_registration_path %></li>
+        <li><%= link_to 'Find Friends', friends_follows_path, :remote => true %></li>
+       
       </ul>
     </div>
   </div>
 </nav>
+
+<%= render partial: 'post_template' %>
+
+
+<div class="col-md-3"> 
+  <div id="index_div" class="modal">
+
+  </div>
+</div>
+
+</div>

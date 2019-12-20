@@ -20,8 +20,12 @@ module HomePageSteps
 
 	# end
 
+	def click_friends_button
+
+	end
+
 	def visits_find_friends(user2)
 		visit('/follows/friends')
-		expect(page).to have_content(user2.username)
+		expect(page).to have_content(user2.username	)
 	end
 end

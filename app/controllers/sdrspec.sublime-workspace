@@ -20,18 +20,51 @@
 	"buffers":
 	[
 		{
-			"file": "/home/liya/project/project/rspec/successdart/app/controllers/call_logs_controller.rb",
-			"settings":
-			{
-				"buffer_size": 192,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/liya/project/project/rspec/successdart/app/controllers/checkins_controller.rb",
 			"settings":
 			{
 				"buffer_size": 9897,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/views/checkins/new.js.erb",
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/views/checkins/_new.html.erb",
+			"settings":
+			{
+				"buffer_size": 7261,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/assets/javascripts/checkins.js",
+			"settings":
+			{
+				"buffer_size": 29828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/views/checkins/list.html.erb",
+			"settings":
+			{
+				"buffer_size": 351,
 				"line_ending": "Unix"
 			}
 		},
@@ -56,6 +89,14 @@
 			"settings":
 			{
 				"buffer_size": 12035,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/liya/project/project/rspec/successdart/app/controllers/concerns/checkins/extension.rb",
+			"settings":
+			{
+				"buffer_size": 7486,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,7 +141,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/liya/project/project/rspec"
+		"/home/liya/project/project/rspec",
+		"/home/liya/project/project/rspec/successdart",
+		"/home/liya/project/project/rspec/successdart/app",
+		"/home/liya/project/project/rspec/successdart/app/controllers",
+		"/home/liya/project/project/rspec/successdart/app/views",
+		"/home/liya/project/project/rspec/successdart/app/views/checkins"
 	],
 	"file_history":
 	[
@@ -127,6 +173,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"new_div",
+			"new",
+			"list",
+			"list)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -155,34 +205,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/liya/project/project/rspec/successdart/app/controllers/call_logs_controller.rb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 192,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/home/liya/project/project/rspec/successdart/app/controllers/checkins_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -194,8 +216,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1531,
+								1531
 							]
 						],
 						"settings":
@@ -205,14 +227,158 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
+					"buffer": 1,
+					"file": "/home/liya/project/project/rspec/successdart/app/views/checkins/new.js.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/JavaScript (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
 					"buffer": 2,
+					"file": "/home/liya/project/project/rspec/successdart/app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/liya/project/project/rspec/successdart/app/views/checkins/_new.html.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 7261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/liya/project/project/rspec/successdart/app/assets/javascripts/checkins.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13012,
+								13012
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4001.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/liya/project/project/rspec/successdart/app/views/checkins/list.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "/home/liya/project/project/rspec/successdart/app/controllers/api/v0/base_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -238,11 +404,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "/home/liya/project/project/rspec/successdart/app/controllers/application_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -268,11 +434,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "/home/liya/project/project/rspec/successdart/config/routes.rb",
 					"semi_transient": false,
 					"settings":
@@ -284,8 +450,38 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								7096,
+								7096
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3329.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/liya/project/project/rspec/successdart/app/controllers/concerns/checkins/extension.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
 							]
 						],
 						"settings":
@@ -298,11 +494,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 10,
 					"file": "/home/liya/project/project/rspec/successdart/app/controllers/api/v1/base_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -328,7 +524,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -383,6 +579,26 @@
 		"selected_items":
 		[
 			[
+				"checkins.js",
+				"successdart/app/assets/javascripts/checkins.js"
+			],
+			[
+				"application.hrm",
+				"successdart/app/views/layouts/application.html.erb"
+			],
+			[
+				"checkins_controller",
+				"successdart/app/controllers/checkins_controller.rb"
+			],
+			[
+				"route",
+				"successdart/config/routes.rb"
+			],
+			[
+				"checkin/li",
+				"successdart/app/views/checkins/list.html.erb"
+			],
+			[
 				"routes",
 				"successdart/config/routes.rb"
 			],
@@ -433,10 +649,6 @@
 			[
 				"post_s",
 				"spec/models/post_spec.rb"
-			],
-			[
-				"route",
-				"config/routes.rb"
 			],
 			[
 				"post_controller",
@@ -569,7 +781,7 @@
 		[
 			[
 				"",
-				"~/project/project/rspec/successdart/spec/features/we_connect.sublime-workspace"
+				"~/hobby/Noteapp/config/noteapp-normal.sublime-workspace"
 			],
 			[
 				"rails",
@@ -595,7 +807,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 288.0,
+	"side_bar_width": 285.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

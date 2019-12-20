@@ -10,9 +10,11 @@
   <% end %>
 </div>
 
-<div class="friends">
-	<% user.user_name %> 
-	<%= form_tag follow_path(user_id: user.id), method: :post, remote: true do %>
-      <%= button_tag 'follow', class: 'btn btn-success' %>
-  <% end %>
-</div>
+<%= @users.each do |user| %>
+		<div class="friends">
+			<% user.username %> 
+			<%= form_tag follows_path(user_id: user.id), method: :post, remote: true do %>
+		      <%= button_tag 'follow', class: 'btn btn-success' %>
+		  <% end %>
+		</div>
+	<% end %>
