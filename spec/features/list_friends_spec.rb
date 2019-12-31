@@ -11,7 +11,10 @@ RSpec.describe 'list friends', type: :feature do
 		login_as(user)
 		visit_home_page
 		click_on("Find Friends")
-		visits_find_friends(user2)
+
+		it 'should list users', js: true do 
+			visits_find_friends(user2)
+		end
 		# it_should_list_all_users_who_are_not_friends
 	end
 end

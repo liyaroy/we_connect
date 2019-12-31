@@ -6,9 +6,11 @@ class User < ApplicationRecord
 
   has_many :post
 
-  validates_presence_of :username
+  validates_presence_of :username, :first_name, :last_name, :dob
   validates_uniqueness_of :username
   validates_uniqueness_of :email
+
+  mount_uploader :image, ImageUploader
 
   acts_as_follower
   acts_as_followable

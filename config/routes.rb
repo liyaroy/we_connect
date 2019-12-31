@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 	root to: redirect('/users/sign_in')
   resource :posts
   resource :follows do
-  	get :friends
+  	get :find_friends
+    get :friends
   end
 end

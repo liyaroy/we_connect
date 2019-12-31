@@ -1,21 +1,20 @@
-<data></data>
-<div id="ajax-modal" class="modal-dialog" tabindex="-1">
+<data></data>iv id="ajax-modal" class="modal-dialog" tabindex="-1">
   <div class='modal-header'>
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    <h3 class="modal-title">Friends</h3>
+    <h3 class="modal-title">Find Friends</h3>
   </div>
   <div class='modal-body'>
     <div class="modal-body-content">
-      <% if @friends.present? %>
-      	<% @friends.each do |user| %>
+      <% if @users.present? %>
+      	<% @users.each do |user| %>
           <%= image_tag user.image.thumb.url if user.image.thumb.url%>
   	    	<%= user.username %> 
-  	    	<%= form_tag follows_path(user_id: user.id), method: :delete, remote: true do %>
-            <%= button_tag 'unfollow', class: 'btn btn-primary' %>
+  	    	<%= form_tag follows_path(user_id: user.id), method: :post, remote: true do %>
+  	      	<%= button_tag 'follow', class: 'btn btn-success' %>
   			  <% end %>
-  			<% end %>
+  			 <% end %>
       <% else %>
-        No Friends found
+        No users found
       <% end %>
     </div>
     <div class="ajax-loader"></div>

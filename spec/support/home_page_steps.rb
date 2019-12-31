@@ -4,7 +4,7 @@ module HomePageSteps
 	end
 
 	def i_should_see_all_posts_i_made
-		expect(page).to have_content("Posts")
+		expect(page).to have_content("Find Friends")
 	end
 
 	def visit_create_post_form
@@ -21,11 +21,15 @@ module HomePageSteps
 	# end
 
 	def click_friends_button
-
+		
 	end
 
 	def visits_find_friends(user2)
-		visit('/follows/friends')
-		expect(page).to have_content(user2.username	)
+		# visit('/follows/friends')
+		
+		# click_link "Log in"
+		within('#index_div') do
+		  page.should have_content(user2.username) # async
+		end
 	end
 end

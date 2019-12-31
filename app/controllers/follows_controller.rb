@@ -3,8 +3,9 @@ class FollowsController < ApplicationController
 	respond_to :js
 
 	def create
-		@user = User.find_by(id: params[:user_id])
+		@user = User.find_by(id: params[:user_id].to_i)
 		current_user.follow(@user)
+		redirect_to authenticated_root_path
 	end
 
 	def destroy
@@ -12,12 +13,20 @@ class FollowsController < ApplicationController
 		current_user.stop_following(@user)
 	end
 
-	def friends
-		friend_ids = current_user.followers.map(&:id)
+	def find_friends
+		friend_ids = current_user.all_following.map(&:id)
+		friend_ids << current_user.id
 		@users = User.where.not(id: friend_ids)
 		respond_to do |format|
-	    format.html
+	    # format.html
 	    format.js
+		end
+	end
+
+	def friends
+		@friends = current_user.all_following
+		respond_to do |format|
+			format.js
 		end
 	end
 end

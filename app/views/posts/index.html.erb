@@ -1,5 +1,5 @@
 
-<%= link_to 'Create posts', new_posts_path %>
+
 <div>
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -14,6 +14,9 @@
       <%#= link_to "Socify", root_url, class: "navbar-brand" %>
     </div>
     <div class="collapse navbar-collapse" id="navbar-top">
+      <ul class="nav navbar-nav navbar-left">
+        <li><%= link_to 'Create posts', new_posts_path %></li>
+      </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>
           <li><%= link_to('Sign out', destroy_user_session_path, method: :delete) %></li>
@@ -21,8 +24,10 @@
           <li><%= link_to 'Sign up', new_user_registration_path %></li>
           <li><%= link_to 'Sign in', user_session_path %></li>
         <% end %>
-        <li><%= link_to 'Find Friends', friends_follows_path, :remote => true %></li>
-       
+        <li><%= link_to 'Edit Profile', edit_user_registration_path %></li>
+        <li><%= link_to 'Find Friends', find_friends_follows_path, :remote => true %></li>
+        <li><%= link_to 'Friends', friends_follows_path, :remote => true %></li>
+        <li><%= image_tag current_user.image.thumb.url if current_user.image.thumb.url %></li>
       </ul>
     </div>
   </div>
@@ -30,11 +35,12 @@
 
 <%= render partial: 'post_template' %>
 
-
-<div class="col-md-3"> 
-  <div id="index_div" class="modal">
-
-  </div>
-</div>
-
-</div>
+<!-- <div class="container"> -->
+  <!-- <div class="col-md-3">  -->
+    <div id="index_div" class="modal">
+ 
+    </div>
+  <!-- </div> -->
+<!-- </div> -->
+<!-- </nav> -->
+<!-- </div> -->
