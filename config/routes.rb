@@ -5,9 +5,16 @@ Rails.application.routes.draw do
 	  root to: 'posts#index', as: :authenticated_root
 	end
 	root to: redirect('/users/sign_in')
-  resource :posts
+  resource :posts do 
+    collection do 
+
+    end
+  end
   resource :follows do
   	get :find_friends
     get :friends
   end
+
+  match :like, to: 'likes#create', as: :like, via: :post
+  match :unlike, to: 'likes#destroy', as: :unlike, via: :post
 end

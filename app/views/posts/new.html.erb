@@ -1,9 +1,14 @@
 <h1> Create new Post</h1>
-<%= form_for :post, url: '/posts' do |f| %>
+<%= form_for :post, url: '/posts', html: { multipart: true } do |f| %>
 	<div class="form-group">
 		<%= f.label :message %>
 		<%= f.text_area :message %>
 	</div>
+
+	<div class="field">
+    <%= f.label :image %><br />
+    <%= f.file_field :image, autofocus: true, autocomplete: "image" %>
+  </div>
 
 	<div class="actions">
     <%= f.submit "Save", class: "btn btn-warning btn-sm" %>

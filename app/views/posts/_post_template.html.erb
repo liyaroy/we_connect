@@ -6,10 +6,20 @@
 		  </div>
 		  <div class="panel-body">
 		    <%= post.message %>
+		    <div class="image">
+		    	<% post.post_images.each do |image| %>
+		    		<%= image_tag image.image.thumb.url if image.image.thumb.url %>
+		    	<% end %>
+		    </div>
 		  </div>
+
 		  <div class="panel-footer">
 		    <div>
-		     
+          <%#= link_to 'Edit', edit_note_path(note), class: "btn btn-xs btn-warning" %>
+          <% if post.user == current_user %>
+          	<%= link_to 'Destroy', posts_path(post.id), method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-xs btn-danger" %>
+          	<%= render 'likes/form', likeable: post %>
+          <% end %>
 		    </div>
 		  </div>
 		</div>

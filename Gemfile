@@ -41,6 +41,8 @@ gem 'devise'
 
 gem "acts_as_follower", github: "tcocca/acts_as_follower"
 
+gem 'acts_as_votable'
+
 gem 'bootstrap'
 
 gem 'popper_js'
